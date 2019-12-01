@@ -63,12 +63,12 @@ Map { font-directory: url(./fonts); }
 
 @land:              #000000;
 @water:             #000000;
-@grass:             #E6F2C1;
-@beach:             #FFEEC7;
-@park:              #DAF2C1;
-@cemetery:          #D6DED2;
-@wooded:            #C3D9AD;
-@agriculture:       #F2E8B6;
+@grass:             #000000;
+@beach:             #000000;
+@park:              #000000;
+@cemetery:          #000000;
+@wooded:            #000000;
+@agriculture:       #000000;
 
 @building:          #FF0000;
 @hospital:          rgb(229,198,195);
@@ -93,19 +93,19 @@ Map { font-directory: url(./fonts); }
  *         inner fill (inline).
  */
 
-@motorway_line:     #E65C5C;
+@motorway_line:     #FF0000;
 @motorway_fill:     lighten(@motorway_line,10%);
 @motorway_case:     @motorway_line * 0.9;
 
-@trunk_line:        #E68A5C;
+@trunk_line:        #FF0000;
 @trunk_fill:        lighten(@trunk_line,10%);
 @trunk_case:        @trunk_line * 0.9;
 
-@primary_line:      #FFC859;
+@primary_line:      #FF0000;
 @primary_fill:      lighten(@primary_line,10%);
 @primary_case:      @primary_line * 0.9;
 
-@secondary_line:    #FFE873;
+@secondary_line:    #FF0000;
 @secondary_fill:    lighten(@secondary_line,10%);
 @secondary_case:    @secondary_line * 0.9;
 
